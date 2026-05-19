@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0; 
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    background-color:antiquewhite;
+
+}
+img{
+    max-width: 200px;
+    border-radius: 10px;
+}
+header{
+   background-color:aliceblue; 
+   color: black;
+   text-align: center;
+   padding: 10px;
+    border-radius: 10px;
+
+}
+nav{
+    color: aliceblue; 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 5px;
+    padding: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+
+
+}
+a{
+    text-decoration: none;
+    color:black ;
+    background-color: pink;
+    margin: 12px;
+    padding: 10px;
+}
+.novenyek{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+div{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+@media sreen and (max-width:600px){
+    .novenyek{
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
